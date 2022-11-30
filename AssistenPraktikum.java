@@ -12,9 +12,8 @@ public class AssistenPraktikum extends Mahasiswa implements iPendapatan {
 
     private String mkAsistensi;
     private int jmlPertemuan;
-    
-    public AssistenPraktikum()
-    {
+
+    public AssistenPraktikum() {
         super.Mahasiswa();
         this.mkAsistensi = mkAsistensi;
         this.jmlPertemuan = jmlPertemuan;
